@@ -13,6 +13,8 @@ pipeline{
             steps {
             // 要做的事情
             echo "代码编译..."
+            sh 'pwd && ls -alh'
+            sh 'printenv'
             }
         }
 
