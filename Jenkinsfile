@@ -10,7 +10,7 @@ pipeline{
 
         // 1.编译
         stage('代码编译'){
-            steps{
+            steps {
             // 要做的事情
             echo "代码编译..."
             }
@@ -18,19 +18,19 @@ pipeline{
 
         // 2.测试
         stage('测试'){
-            steps{
+            steps {
             echo "测试..."
             }
         }
         // 3.打包
         stage('打包'){
-            steps{
+            steps {
             echo "打包..."
             }
         }
         // 4.部署
         stage('部署'){
-            steps{
+            steps {
             echo "部署..."
             }
         }
